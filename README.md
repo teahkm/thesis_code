@@ -1,10 +1,10 @@
 # Code for 'On Recent Advances in Compressed Sensing'
 
-This repository contains the code that reproduces the figures in the thesis 'On Recent Advances in Compressed Sensing'.
+This repository contains the code used in the thesis 'On Recent Advances in Compressed Sensing'.
 
 ## Structure of this repository
-* _data_ contains the original test images and the square gray scale versions
-* _figures_ contains the code that reproduces the figures
+* **data** contains the original test images and the square gray scale versions
+* **src** contains the code that reproduces the figures
 
 ## Dependencies
 This code in this repository requires the installation of
