@@ -6,14 +6,14 @@ This folder contains the code that produces the figures in the thesis.
 ## Figures
 
 The following is a list of which scripts produce which figures
-* **Figure 3.1**: _plot\_haar\_phi.py_ and _plot\_haar\_psi.py_
-* **Figure 3.2**: _plot\_hadamard\_orderings.m_
+* **Figure 3.1**: `plot_haar_phi.py` and `plot_haar_psi.py`
+* **Figure 3.2**: `plot_hadamard_orderings.m`
 * **Figure 3.3**:
-* **Figure 3.4**: _make\_coherence\_matrix.m_ and _plot\_coherence.py_
-* **Figure 3.5**:
-* **Figure 4.1**: _make\_pareto\_curve.m_ and _plot\_pareto.py_
-* **Figure 5.1**:
-* **Figure 5.2**: _resize\_test\_image.m_
-* **Figure 5.3**: _flip\_test\_hadamard.m_
-* **Figure 5.4**: _flip\_test\_hadamard.m_ and
-* **Figure 5.5**: _flip\_test\_hadamard.m_ and
+* **Figure 3.4**: `make_coherence_matrix.m` and `plot_coherence.py`
+* **Figure 3.5**: `recover_with_had_haar.m`
+* **Figure 4.1**: `make_pareto_curve.m` and `plot_pareto.py`
+* **Figure 5.1**: `recover_with_had_haar.m`
+* **Figure 5.2**: `resize_test_image.m`
+* **Figure 5.3**: `flip_test_hadamard.m`
+* **Figure 5.4**: `flip_test_hadamard.m` and `recover_with_had_haar.m`
+* **Figure 5.5**: `flip_test_hadamard.m` and `recover_with_had_haar.m`
