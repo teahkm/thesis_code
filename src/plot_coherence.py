@@ -4,13 +4,14 @@ import scipy.io as spio
 import seaborn as sns
 import pandas as pd
 
-# load matlab data
+# load matlab data, data must be in same directory
 mat_haar = spio.loadmat("coh_db1_dyadic.mat", squeeze_me=True)
 mat_db4 = spio.loadmat("coh_db4_dyadic.mat", squeeze_me=True)
 
 im_haar = mat_haar["im"]
 im_db4 = mat_db4["im3"]
 
+# to plot haar, remove comments around this and comment out db4 block
 """
 # plot haar
 ax = sns.heatmap(im_haar)
