@@ -1,13 +1,13 @@
 % This script converts test images to grayscale and resizes to NxN
 
 nu = 9;
-N = 2^9;
-im = imread('data\kayak_color_rectangle.jpg');
-im_gray = rgb2gray(uint8(im));
+N = 2^9; % 512 x 512
+im = imread('..\data\originals\pig_color_rectangle.jpg'); % change filename
 
-im_resized = imresize(im_gray, [N,N]);
+im_gray = rgb2gray(uint8(im)); % convert to gray scale
+im_resized = imresize(im_gray, [N,N]); % resize to square
 
-dest = 'C:\Users\Bruker\Documents\mastergreier\Master\data\test_images';
-fname = fullfile(dest, sprintf('kayak_gray%d.jpg', N));
+dest = '..\data\test_images'; % saves image to test_images folder
+fname = fullfile(dest, sprintf('pig_gray%d.jpg', N)); % change filename
 
 imwrite(im_resized, fname);
