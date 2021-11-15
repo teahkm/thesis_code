@@ -1,6 +1,7 @@
-% This script is a copy of the file Flip_test_fourier.m in the CI library
-% by Vegard Antun (2018). It has been modified to work for Hadamard sampling
-% instead of Fourier. The filename and value for nu has also been changed.
+% This script is a copy of the file Flip_test_fourier.m in the folder ch11
+% in the CI library by Vegard Antun (2018). It has been modified to work
+% for Hadamard sampling instead of Fourier. The filename and value for nu
+% has also been changed.
 
 % This script demonstrates the flip test and flip test in levels 
 % for Hadamard sampling and wavelet reconstruction. Change the variable 
@@ -21,7 +22,7 @@ dwtmode('per', 'nodisp');
 nu = 9;                        % 2^nu = signal size
 subsampling_rate = 0.20;
 sigma = 0;                     % Noise parameter
-vanishing_moments = 4;    % The experiment is preformed for each number 
+vanishing_moments = 4;         % The experiment is preformed for each number 
                                % specified 
 flipp_test_in_levels = 0;% Boolean, 0: flip all wavelet coefficients
                          %          1: flip wavelet coefficients within each
@@ -32,7 +33,7 @@ nbr_sampling_lines = 33;
 % Dependent parameters
 N = 2^(nu);                     % N × N image
 nbr_samples = round(N*N*subsampling_rate); % Number of samples
-fname = sprintf('turtle_gray%d.jpg', N);
+fname = sprintf('turtle_gray%d.jpg', N); % change filename here
 im = double(imread(fullfile(cil_dflt.data_path, 'test_images', fname))); % OBS: image must have range [0,255] for PSNR calculations
 
 % Create an image where all wavelet coefficients are flipped.
@@ -48,7 +49,7 @@ r_factor = 4;
 [idx2, samp_str_id2] = cil_sph2_gcircle(N, nbr_samples, a, r0, nbr_levels);
 [idx3, samp_str_id3] = cil_sp2_uniform(N, nbr_samples);
 
-sampling_pattern = {idx1, idx2,idx3};
+sampling_pattern = {idx1, idx2, idx3};
 sampling_string_id = {samp_str_id1, samp_str_id2, samp_str_id3};
 
 

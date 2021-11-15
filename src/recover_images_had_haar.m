@@ -5,10 +5,10 @@
 % pressing F9.
 
 % load images
-im_pig = double(imread('C:\Users\Bruker\Documents\mastergreier\Master\data\test_images\pig_gray512.jpg'));
-im_turtle = double(imread('C:\Users\Bruker\Documents\mastergreier\Master\data\test_images\turtle_gray512.jpg'));
-im_kayak = double(imread('C:\Users\Bruker\Documents\mastergreier\Master\data\test_images\kayak_gray512.jpg'));
-im_opera = double(imread('C:\Users\Bruker\Documents\mastergreier\Master\data\test_images\opera_gray512.jpg'));
+im_pig = double(imread('..\data\test_images\pig_gray512.jpg'));
+im_turtle = double(imread('..\data\test_images\turtle_gray512.jpg'));
+im_kayak = double(imread('..\data\test_images\kayak_gray512.jpg'));
+im_opera = double(imread('..\data\test_images\opera_gray512.jpg'));
 
 N = size(im_kayak,1);
 k = floor(N^2*0.20); % number of samples, percentage of total number
