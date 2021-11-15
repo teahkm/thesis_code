@@ -1,7 +1,7 @@
 # Pseudo Code from Chapter 4
 
 This folder contains the files with the pseudo code from Chapter 4 in the thesis.
-The code is written as Matlab translations of the algorithms in [[1]](#1), i.e. not fully pseudo code,
+The code is written as Matlab translations of the algorithms in [[1]](#1), i.e., not fully pseudo code,
 but not fully working code either.
 
 Click [here](https://friedlander.io/spgl1/) for the working SPGL1 code by Michael P. Friedlander and Ewout van den Berg.

@@ -2,7 +2,7 @@
 This folder contains the code that produces the figures in the thesis.
 
 ## Disclaimer
-
+The files `paley.tex` and `flip_test_hadamard.m` are copies of files from th [CI library](https://github.com/vegarant/cilib) by Vegard Antun, modified to fit the use in this thesis.
 ## Figures
 
 The following is a list of which scripts produce which figures:

@@ -4,7 +4,8 @@ This repository contains the code used in the thesis 'On Recent Advances in Comp
 
 ## Structure of this repository
 * **data** contains the original test images and the square gray scale versions
-* **src** contains the code that reproduces the figures
+* **spgl\_pseudo** contains the pseudo code for the SPGL1 algorithm
+* **src** contains the scripts that reproduce the figures
 
 ## Dependencies
 This code in this repository requires the installation of
