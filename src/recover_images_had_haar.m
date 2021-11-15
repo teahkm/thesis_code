@@ -28,7 +28,7 @@ r_factor = 4;
 [idx2, samp_str_id2] = cil_sph2_gcircle(N, k, a, r0, nbr_levels);
 [idx3, samp_str_id3] = cil_sp2_uniform(N, k);
 
-% figure: standard CS recoveries of pig and turtle for fliptest
+% standard CS recoveries of pig and turtle, not used
 im_rec_2level1 = cil_sample_walsh_wavelet(im_pig,0,idx1,'out_pig20level',vm);
 im_rec_2level2 = cil_sample_walsh_wavelet(im_turtle,0,idx1,'out_turtle20level',vm);
 im_rec_circle1 = cil_sample_walsh_wavelet(im_pig,0,idx2,'out_pig20circle',vm);

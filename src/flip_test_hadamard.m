@@ -7,6 +7,10 @@
 % for Hadamard sampling and wavelet reconstruction. Change the variable 
 % flip_test_in_levels, to choose which of the tests you would like to run
 
+% Output: - reconstructed image from standard CS recovery
+%         - reconstructed image from flip test (regular or in levels)
+%         - plot of sampling pattern
+
 clear('all') ; close('all');
 load('cilib_defaults.mat') % load font size, line width, etc.
 

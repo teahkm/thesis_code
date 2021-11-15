@@ -2,7 +2,7 @@
 This folder contains the code that produces the figures in the thesis.
 
 ## Disclaimer
-The files `paley.tex` and `flip_test_hadamard.m` are copies of files from th [CI library](https://github.com/vegarant/cilib) by Vegard Antun, modified to fit the use in this thesis.
+The files `paley.tex` and `flip_test_hadamard.m` are copies of files from the [CI library](https://github.com/vegarant/cilib) by Vegard Antun, modified to fit the use in the thesis.
 ## Figures
 
 The following is a list of which scripts produce which figures:
@@ -15,5 +15,5 @@ The following is a list of which scripts produce which figures:
 * **Figure 5.1**: `recover_images_had_haar.m`
 * **Figure 5.2**: `resize_test_image.m`
 * **Figure 5.3**: `flip_test_hadamard.m`
-* **Figure 5.4**: `flip_test_hadamard.m` and `recover_images_had_haar.m`
-* **Figure 5.5**: `flip_test_hadamard.m` and `recover_images_had_haar.m`
+* **Figure 5.4**: `flip_test_hadamard.m`
+* **Figure 5.5**: `flip_test_hadamard.m`
